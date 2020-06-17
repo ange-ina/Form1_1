@@ -1,0 +1,104 @@
+/* body{
+    margin: 0;
+    padding-top: 100px;
+}
+section{
+    margin-top: 0;
+}
+section h1{
+    padding:10 10;
+}
+h1{
+    width: 100vw;
+    height: 15vh;
+    margin-top: 0;
+    padding-top: 5%;
+    text-align: center;
+    font-family: 'Open - sans'sans-serif;
+    background-color: blueviolet;
+    text-transform: uppercase;
+    color: cornsilk;
+}
+#name{
+    margin-top: 0;
+    margin-left: 40%;
+    font-size: 2em;
+    padding: 5 10 auto;
+    display: block;
+    text-align: center;
+    background-color: cornflowerblue;
+    border: none;
+
+}
+#email{
+    margin-left: 40%;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    background-color: cornflowerblue;
+    border: none;
+
+}
+#tel{
+    margin-left: 40%;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    background-color: cornflowerblue;
+    border: none;
+
+}
+#button{
+    margin-left: 50%;
+    font-size: 2em;
+    background-color: magenta;
+    border: none;
+    padding: 10px 10px;
+   
+} */
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    padding-top: 30%;
+}
+
+form{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input,label,textarea,select{
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+input,textarea,select{
+    margin-bottom: 15px;
+}
+ #vorname,#nachname{
+    display: inline-block;
+    width: 49%;
+}
+
+span{
+    color: red;
+}
+#btn{
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    letter-spacing: 1px;
+}
+#btn:hover{
+    background-color: turquoise;
+}
+::placeholder{
+    padding-left: 5px;
+}
